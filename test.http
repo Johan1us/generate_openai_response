@@ -1,0 +1,8 @@
+### Send POST request with json body
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+    "fulfillmentInfo": {"tag": "knap online - prompt vervolgvraag"},
+    "text": "Wat is social media?"
+}
