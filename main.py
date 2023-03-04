@@ -7,7 +7,7 @@ import openai
 from functions_framework import http
 
 # Initialize Firestore client
-cred = credentials.Certificate(os.environ.get("FIRESTORE_CREDS_JSON"))
+cred = credentials.Certificate("firestore_creds.json")
 initialize_app(cred)
 db = firestore.client()
 
